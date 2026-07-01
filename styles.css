@@ -387,7 +387,7 @@ footer{background:var(--dark); color:#94A3B8; padding:64px 0 28px; margin-top:40
 .section-head .label {
   font-family: var(--font-mono);
   font-size: 13px;
-  color: var(--accent); /* আকাশি রঙ */
+  color: var(--accent); 
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -409,7 +409,7 @@ footer{background:var(--dark); color:#94A3B8; padding:64px 0 28px; margin-top:40
   line-height: 1.6;
 }
 
-/* টাইমলাইন কন্টেইনার */
+
 .timeline {
   display: flex;
   justify-content: center;
@@ -421,7 +421,7 @@ footer{background:var(--dark); color:#94A3B8; padding:64px 0 28px; margin-top:40
 .timeline::before {
   content: "";
   position: absolute;
-  top: 25px; /* বৃত্তের মাঝখানে */
+  top: 25px;
   left: 10%;
   right: 10%;
   height: 2px;
@@ -429,7 +429,7 @@ footer{background:var(--dark); color:#94A3B8; padding:64px 0 28px; margin-top:40
   z-index: 0;
 }
 
-/* প্রতিটা ধাপ */
+
 .tstep {
   display: flex;
   flex-direction: column;
